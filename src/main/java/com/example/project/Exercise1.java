@@ -3,7 +3,6 @@ package com.example.project;
 import java.util.Scanner;
 
 public class Exercise1 {
-
 	public static void main(final String[] args) {
 
 		Exercise1 obj = new Exercise1();
@@ -13,7 +12,6 @@ public class Exercise1 {
 			System.out.println(obj.convertirBaseGabriel(n));			
 		}
 	}
-
 	public String convertirBaseGabriel(int a) {
                int d,i=0,exp=0,num=0;
 		boolean gabriel;
